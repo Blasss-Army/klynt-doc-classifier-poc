@@ -1,0 +1,25 @@
+taxonomy:
+  Financial:
+    Invoice: {}
+    Bank_Statement: {}
+    Financial_Statements: {}
+    Cap_Table: {}
+  Legal:
+    NDA: {}
+    SPA: {}
+    Contract: {}
+    Terms: {}
+  HR:
+    Employment_Contract: {}
+    Payslip: {}
+    Org_Chart: {}
+  Commercial:
+    Customer_Contract: {}
+    Pipeline: {}
+    Pricing: {}
+  Technical:
+    Architecture: {}
+    Security_Policy: {}
+    Product_Specs: {}
+  Corporate:
+    Unknown: {}
