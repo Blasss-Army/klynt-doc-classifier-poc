@@ -23,6 +23,6 @@ class DocumentRecord(BaseModel):
         return "High"
     
 
-def generate_json(list_names: List, base_dir: str = "messy_folder"):
-    return json.dumps([DocumentRecord(file_path=base_dir + '/' + name,).model_dump() for name in list_names], indent=2, ensure_ascii=False)
+def generate_json(list_reports: List[DocumentRecord], base_dir: str = "messy_folder"):
+    return json.dumps([report.model_dump() for report in list_reports if report is not None], indent=2, ensure_ascii=False)
 
